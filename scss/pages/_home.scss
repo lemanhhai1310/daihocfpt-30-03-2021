@@ -13,6 +13,19 @@
     color: #000;
     font-family: $font-Verdana-Bold;
     line-height: (40/38.9);
+    &--c4{
+      color: $color4 !important;
+    }
+  }
+  &__blockQuytrinh{
+    &__txt1{
+      color: #1d1d1b;
+      @extend .fz-16;
+      line-height: (22/16);
+      span{
+        font-family: $font-Roboto-Black;
+      }
+    }
   }
   &__blockHoatdong{
     &__title{
@@ -65,6 +78,33 @@
       color: #000;
       @extend .fz-18;
       font-family: $font-Verdana;
+      border-radius: 16px;
+      &--c1{
+        background: $color2;
+        color: #ffffff;
+      }
+    }
+  }
+  &__blockDangky1{
+    .uk-radio{
+      &:not(:checked){
+        background: #fff;
+      }
+    }
+    &__card{
+      border: 1px solid #ffffff;
+    }
+    &__txt1{
+      color: #000;
+      @extend .fz-16;
+      font-family: $font-Roboto-Bold;
+      line-height: (18/16);
+    }
+    &__txt2{
+      color: #000;
+      @extend .fz-16;
+      font-family: $font-Roboto-LightItalic;
+      line-height: (19/16);
     }
   }
 }

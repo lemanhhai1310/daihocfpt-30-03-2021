@@ -1,6 +1,147 @@
 <?php $data["title"] = "Trang chủ"; ?>
 <?php $is_home = true; ?>
 <?php require "template-parts/layouts/header.php"; ?>
+
+<div class="uk-section-small">
+    <div class="uk-container">
+        <div class="mb-15 mb-22-m">
+            <h2 class="uk-h2 uk-text-center home__title2 home__title2--c4 uk-margin-remove">Quy trình tuyển sinh</h2>
+        </div>
+        <div class="uk-text-center mb-15 mb-22-m">
+            <div class="home__blockQuytrinh__txt1"><span>Đối tượng tuyển sinh</span> Các thí sinh tốt nghiệp THPT hoặc tương đương tính đến thời điểm nhập học</div>
+            <div class="home__blockQuytrinh__txt1"><span>Điều kiện xét tuyển</span> Đáp ứng một trong các điều kiện sau</div>
+        </div>
+        <div class="uk-child-width-1-2@m uk-grid-small uk-grid-20-m" uk-grid>
+            <?php
+            $data = array(
+                array(
+                    'txt' => array(
+                        'Thuộc diện được tuyển thẳng theo Quy chế tuyển sinh Đại học, Cao đẳng hệ đại học chính quy của Bộ GD&ĐT.',
+                    ),
+                ),
+                array(
+                    'txt' => array(
+                        'Điểm học bạ thuộc Top50 THPT toàn quốc(chứng nhận thực hiện trên trang http://SchoolRank.fpt.edu.vn)',
+                    ),
+                ),
+                array(
+                    'txt' => array(
+                        'Điểm các môn thi trong kỳ thi THPT 2020 thuộc Top50 THPT toàn quốc (theo số liệu Đại học FPT tổng hợp và công bố sau kỳ thi THPT 2020) và điểm theo khối xét tuyển đạt từ trung bình trở lên (15/30 điểm).',
+                    ),
+                ),
+                array(
+                    'txt' => array(
+                        'Ngành Ngôn Ngữ Anh: Có chứng chỉ tiếng Anh TOEFL iBT từ 80 hoặc IELTS (Học thuật) từ 6.0 hoặc quy đổi tương đương.',
+                        'Ngành Ngôn Ngữ Nhật: Có chứng chỉ tiếng Nhật JLPT từ N3 trở lên.',
+                        'Ngành Ngôn Ngữ Hàn: Chứng chỉ Topik cấp độ 4 trong kỳ thi TOPIK II',
+                    ),
+                ),
+                array(
+                    'txt' => array(
+                        'Tốt nghiệp Chương trình APTECH HDSE.(áp dụng đối với ngành CNTT)',
+                        'Tốt nghiệp Chương trình ARENA ADIM. (áp dụng đối với chuyên ngành Thiết kế Mỹ thuật số)',
+                        'Đã tốt nghiệp Đại học.',
+                        'Thí sinh tốt nghiệp THPT ở nước ngoài',
+                    ),
+                ),
+            );
+            foreach ($data as $k => $v): ?>
+            <div>
+                <div class="uk-padding-small uk-border-rounded uk-background-04">
+
+                </div>
+            </div>
+            <?php endforeach; ?>
+        </div>
+    </div>
+</div>
+
+<!--Đăng ký tuyển sinh-->
+<div class="home__blockDangky1 uk-section-small uk-background-01">
+    <div class="uk-container">
+        <div class="uk-flex-middle uk-grid-small uk-grid-41-m" uk-grid>
+            <div class="uk-width-2-5@m">
+                <div class="uk-card uk-card-body uk-text-center home__blockDangky1__card uk-border-rounded">
+                    <div>
+                        <div class="uk-display-inline-block uk-padding-small uk-height-small uk-padding-remove-top uk-padding-remove-bottom uk-background-01" style="margin-top: -198px;">
+                            <div class="uk-display-inline-block uk-cover-container uk-border-circle">
+                                <img src="images/lemanhhai_anhthe.jpg" alt="" uk-cover>
+                                <canvas width="138" height="138"></canvas>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="home__blockDangky1__txt2">“Con gái cô đã được 1 công ty hàng không của Nhật Bản mời về làm việc 2 tháng nay khi em còn chưa tốt nghiệp. Cô chắn chắn rằng 4 năm qua nhà trường đã trang bị cho các con mọi thứ rất chu đáo thì các con hiện nay mới vững vàng được như thế. Ngày hôm nay tham dự buổi lễ tốt nghiệp của con, cô thực sự rất cảm động và thấy rất ấm áp. So với 4 năm trước khi cô dự lễ khai giảng thì thấy các con trưởng thành, chững chạc hơn nhiều. Cô cảm nhận được sự trách nhiệm của thầy cô từ ngày đầu tiên cho tới những ngày cuối cùng này.”</p>
+                    <div>
+                        <div class="home__blockDangky1__txt1">Cô Lê Nga - Phụ huynh sinh viên Trần Lê Lâm Anh</div>
+                        <div class="home__blockDangky1__txt1">K11 ngành Quản trị kinh doanh</div>
+                    </div>
+                </div>
+            </div>
+            <div class="uk-width-expand">
+                <div class="mb-20 mb-38-m">
+                    <h2 class="uk-h2 uk-text-center home__title2 uk-margin-remove">Đăng ký tuyển sinh</h2>
+                </div>
+                <form class="uk-grid-small uk-flex-center" uk-grid>
+                    <div class="uk-width-1-2@s">
+                        <input class="uk-input home__blockDangky__input" type="text" placeholder="Họ và tên*">
+                    </div>
+                    <div class="uk-width-1-2@s">
+                        <input class="uk-input home__blockDangky__input" type="text" placeholder="Số điện thoại*">
+                    </div>
+                    <div class="uk-width-1-2@s">
+                        <input class="uk-input home__blockDangky__input" type="text" placeholder="Email">
+                    </div>
+                    <div class="uk-width-1-2@s">
+                        <input class="uk-input home__blockDangky__input" type="text" placeholder="Tỉnh / Thành phố">
+                    </div>
+
+                    <div class="uk-width-1-2@s">
+                        <input class="uk-input home__blockDangky__input" type="text" placeholder="Ngày sinh">
+                    </div>
+                    <div class="uk-width-1-2@s">
+                        <input class="uk-input home__blockDangky__input" type="text" placeholder="Trường THPT / Đại Học">
+                    </div>
+                    <div class="uk-width-1-1">
+                        <input class="uk-input home__blockDangky__input" type="text" placeholder="Link Facebook của bạn">
+                    </div>
+
+                    <div class="uk-width-1-1" uk-toggle="cls: uk-margin-top; mode: media; media: @m">
+                        <div class="uk-form-stacked">
+                            <div class="uk-form-label uk-text-center@s home__blockDangky1__txt1">Đăng ký*</div>
+                            <div class="uk-form-controls">
+                                <div class="uk-grid-small uk-child-width-auto uk-child-width-expand@s uk-grid">
+                                    <label><input class="uk-radio" type="radio" name="radio1" checked> <span class="home__blockDangky1__txt1">Tư vấn</span></label>
+                                    <label><input class="uk-radio" type="radio" name="radio1"> <span class="home__blockDangky1__txt1">Xét tuyển</span></label>
+                                    <label><input class="uk-radio" type="radio" name="radio1"> <span class="home__blockDangky1__txt1">Thi học bổng</span></label>
+                                    <label><input class="uk-radio" type="radio" name="radio1"> <span class="home__blockDangky1__txt1">Xét học bổng</span></label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="uk-width-1-1" uk-toggle="cls: uk-margin-medium-top; mode: media; media: @m">
+                        <div class="uk-form-stacked">
+                            <div class="uk-form-label uk-text-center@s home__blockDangky1__txt1">Nơi đăng ký sơ tuyển:</div>
+                            <div class="uk-form-controls">
+                                <div class="uk-grid-small uk-child-width-auto uk-child-width-expand@s uk-grid">
+                                    <label><input class="uk-radio" type="radio" name="radio2" checked> <span class="home__blockDangky1__txt1">Hà Nội</span></label>
+                                    <label><input class="uk-radio" type="radio" name="radio2"> <span class="home__blockDangky1__txt1">Tp.HCM</span></label>
+                                    <label><input class="uk-radio" type="radio" name="radio2"> <span class="home__blockDangky1__txt1">Cần Thơ</span></label>
+                                    <label><input class="uk-radio" type="radio" name="radio2"> <span class="home__blockDangky1__txt1">Đà Nẵng</span></label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="uk-width-auto" uk-toggle="cls: uk-margin-medium-top; mode: media; media: @m">
+                        <button type="button" class="uk-button home__blockDangky__btn home__blockDangky__btn--c1 uk-button-secondary uk-border-rounded">ĐĂNG KÝ</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+<!--/Đăng ký tuyển sinh-->
+
 <!--Hoạt động của trường-->
 <div class="uk-section-small home__blockHoatdong uk-background-05">
     <div class="uk-container">
@@ -68,7 +209,7 @@
                     <div class="uk-width-1-2">
                         <input class="uk-input uk-border-pill home__blockDangky__input" type="text" placeholder="Tỉnh / Thành phố">
                     </div>
-                    <div class="uk-width-auto">
+                    <div class="uk-width-auto" uk-toggle="cls: uk-margin-medium-top; mode: media; media: @m">
                         <button type="button" class="uk-button home__blockDangky__btn uk-button-secondary uk-border-rounded">ĐĂNG KÝ</button>
                     </div>
                 </form>
@@ -77,4 +218,5 @@
     </div>
 </div>
 <!--/Đăng ký tư vấn tuyển sinh-->
+
 <?php require "template-parts/layouts/footer.php"; ?>
