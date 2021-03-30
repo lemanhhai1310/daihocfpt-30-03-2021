@@ -174,7 +174,7 @@
                         <div class="uk-card uk-card-default home__blockHoatdong__card">
                             <div class="uk-cover-container">
                                 <img src="<?= $v['src'] ?>" alt="" uk-cover>
-                                <canvas width="283" height="163"></canvas>
+                                <canvas width="566" height="326"></canvas>
                             </div>
                             <div class="uk-card-body uk-padding-small">
                                 <h5 class="uk-h5 uk-margin-remove home__blockHoatdong__title"><a href=""><?= $v['title'] ?></a></h5>
