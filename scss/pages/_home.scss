@@ -1,0 +1,30 @@
+.home{
+  &__title1{
+    @extend .fz-28;
+    font-family: $font-Verdana-Bold;
+    line-height: 1.24;
+    color: #000;
+    .uk-light &{
+      color: #ffffff;
+    }
+  }
+  &__title2{
+
+  }
+  &__blockDangky{
+    &__input{
+      color: #575756;
+      @extend .fz-16;
+      font-family: $font-Roboto-LightItalic;
+      &::placeholder{
+        color: #575756;
+      }
+    }
+    &__btn{
+      background: $color1;
+      color: #000;
+      @extend .fz-18;
+      font-family: $font-Verdana;
+    }
+  }
+}
