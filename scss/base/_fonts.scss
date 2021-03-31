@@ -12,6 +12,30 @@
 }
 /**
  * --------------------------------------------------------------------
+ * iCielGotham-Ultra
+ * --------------------------------------------------------------------
+ */
+@font-face{
+  font-family:'iCiel Gotham Ultra';
+  font-display: auto;
+  src:local('iCiel Gotham Ultra'), url('fonts/Gotham-Ultra.otf') format('truetype');
+  font-weight:normal;
+  font-style:normal;
+}
+/**
+ * --------------------------------------------------------------------
+ * SanFranciscoText-G3
+ * --------------------------------------------------------------------
+ */
+@font-face{
+  font-family:'San Francisco Text Regular G3';
+  font-display: auto;
+  src:local('San Francisco Text Regular G3'), url('fonts/SanFranciscoText-RegularG3.otf') format('truetype');
+  font-weight:normal;
+  font-style:normal;
+}
+/**
+ * --------------------------------------------------------------------
  * Verdana
  * --------------------------------------------------------------------
  */
@@ -73,6 +97,13 @@
   font-family:'Roboto Light Italic';
   font-display: auto;
   src:local('Roboto Light Italic'), url('fonts/Fonts/Roboto-LightItalic.ttf') format('truetype');
+  font-weight:normal;
+  font-style:normal;
+}
+@font-face{
+  font-family:'Roboto Italic';
+  font-display: auto;
+  src:local('Roboto Italic'), url('fonts/Fonts/Roboto-Italic.ttf') format('truetype');
   font-weight:normal;
   font-style:normal;
 }

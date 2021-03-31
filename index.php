@@ -4,6 +4,7 @@
 
 <div class="uk-section-small">
     <div class="uk-container">
+        <!--Quy trình tuyển sinh-->
         <div class="mb-15 mb-22-m">
             <h2 class="uk-h2 uk-text-center home__title2 home__title2--c4 uk-margin-remove">Quy trình tuyển sinh</h2>
         </div>
@@ -11,48 +12,149 @@
             <div class="home__blockQuytrinh__txt1"><span>Đối tượng tuyển sinh</span> Các thí sinh tốt nghiệp THPT hoặc tương đương tính đến thời điểm nhập học</div>
             <div class="home__blockQuytrinh__txt1"><span>Điều kiện xét tuyển</span> Đáp ứng một trong các điều kiện sau</div>
         </div>
-        <div class="uk-child-width-1-2@m uk-grid-small uk-grid-20-m" uk-grid>
-            <?php
-            $data = array(
-                array(
-                    'txt' => array(
-                        'Thuộc diện được tuyển thẳng theo Quy chế tuyển sinh Đại học, Cao đẳng hệ đại học chính quy của Bộ GD&ĐT.',
-                    ),
-                ),
-                array(
-                    'txt' => array(
-                        'Điểm học bạ thuộc Top50 THPT toàn quốc(chứng nhận thực hiện trên trang http://SchoolRank.fpt.edu.vn)',
-                    ),
-                ),
-                array(
-                    'txt' => array(
-                        'Điểm các môn thi trong kỳ thi THPT 2020 thuộc Top50 THPT toàn quốc (theo số liệu Đại học FPT tổng hợp và công bố sau kỳ thi THPT 2020) và điểm theo khối xét tuyển đạt từ trung bình trở lên (15/30 điểm).',
-                    ),
-                ),
-                array(
-                    'txt' => array(
-                        'Ngành Ngôn Ngữ Anh: Có chứng chỉ tiếng Anh TOEFL iBT từ 80 hoặc IELTS (Học thuật) từ 6.0 hoặc quy đổi tương đương.',
-                        'Ngành Ngôn Ngữ Nhật: Có chứng chỉ tiếng Nhật JLPT từ N3 trở lên.',
-                        'Ngành Ngôn Ngữ Hàn: Chứng chỉ Topik cấp độ 4 trong kỳ thi TOPIK II',
-                    ),
-                ),
-                array(
-                    'txt' => array(
-                        'Tốt nghiệp Chương trình APTECH HDSE.(áp dụng đối với ngành CNTT)',
-                        'Tốt nghiệp Chương trình ARENA ADIM. (áp dụng đối với chuyên ngành Thiết kế Mỹ thuật số)',
-                        'Đã tốt nghiệp Đại học.',
-                        'Thí sinh tốt nghiệp THPT ở nước ngoài',
-                    ),
-                ),
-            );
-            foreach ($data as $k => $v): ?>
-            <div>
-                <div class="uk-padding-small uk-border-rounded uk-background-04">
-
+        <div class="mb-30 mb-52-m">
+            <div class="uk-child-width-1-2 uk-grid-small uk-grid-20-m uk-visible@m uk-grid-match" uk-grid>
+                <div>
+                    <div class="uk-child-width-1-1 uk-grid-small uk-grid-20-m uk-grid-match uk-flex-center" uk-grid>
+                        <?php
+                        $data = array(
+                            array(
+                                'txt' => array(
+                                    'Thuộc diện được tuyển thẳng theo Quy chế tuyển sinh Đại học, Cao đẳng hệ đại học chính quy của Bộ GD&ĐT.',
+                                ),
+                            ),
+                            array(
+                                'txt' => array(
+                                    'Điểm học bạ thuộc Top50 THPT toàn quốc(chứng nhận thực hiện trên trang http://SchoolRank.fpt.edu.vn)',
+                                ),
+                            ),
+                            array(
+                                'txt' => array(
+                                    'Điểm các môn thi trong kỳ thi THPT 2020 thuộc Top50 THPT toàn quốc (theo số liệu Đại học FPT tổng hợp và công bố sau kỳ thi THPT 2020) và điểm theo khối xét tuyển đạt từ trung bình trở lên (15/30 điểm).',
+                                ),
+                            ),
+                        );
+                        foreach ($data as $k => $v): ?>
+                            <div>
+                                <div class="uk-padding-small uk-border-rounded uk-background-04 uk-light">
+                                    <div class="uk-grid-small" uk-grid>
+                                        <div class="uk-width-auto">
+                                            <span class="home__blockQuytrinh__txt2"><?= $k+1 ?></span>
+                                        </div>
+                                        <div class="uk-width-expand">
+                                            <?php foreach ($v['txt'] as $k1 => $v1): ?>
+                                                <div class="home__blockQuytrinh__item"><?= $v1 ?></div>
+                                            <?php endforeach; ?>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        <?php endforeach; ?>
+                    </div>
+                </div>
+                <div>
+                    <div class="uk-child-width-1-1 uk-grid-small uk-grid-20-m uk-grid-match uk-flex-center" uk-grid>
+                        <?php
+                        $data = array(
+                            array(
+                                'txt' => array(
+                                    'Ngành Ngôn Ngữ Anh: Có chứng chỉ tiếng Anh TOEFL iBT từ 80 hoặc IELTS (Học thuật) từ 6.0 hoặc quy đổi tương đương.',
+                                    'Ngành Ngôn Ngữ Nhật: Có chứng chỉ tiếng Nhật JLPT từ N3 trở lên.',
+                                    'Ngành Ngôn Ngữ Hàn: Chứng chỉ Topik cấp độ 4 trong kỳ thi TOPIK II',
+                                ),
+                            ),
+                            array(
+                                'txt' => array(
+                                    'Tốt nghiệp Chương trình APTECH HDSE.(áp dụng đối với ngành CNTT)',
+                                    'Tốt nghiệp Chương trình ARENA ADIM. (áp dụng đối với chuyên ngành Thiết kế Mỹ thuật số)',
+                                    'Đã tốt nghiệp Đại học.',
+                                    'Thí sinh tốt nghiệp THPT ở nước ngoài',
+                                ),
+                            ),
+                        );
+                        foreach ($data as $k => $v): ?>
+                            <div>
+                                <div class="uk-padding-small uk-border-rounded uk-background-04 uk-light">
+                                    <div class="uk-grid-small" uk-grid>
+                                        <div class="uk-width-auto">
+                                            <span class="home__blockQuytrinh__txt2"><?= $k+4 ?></span>
+                                        </div>
+                                        <div class="uk-width-expand">
+                                            <?php foreach ($v['txt'] as $k1 => $v1): ?>
+                                                <div class="home__blockQuytrinh__item"><?= $v1 ?></div>
+                                            <?php endforeach; ?>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        <?php endforeach; ?>
+                    </div>
                 </div>
             </div>
-            <?php endforeach; ?>
+            <div class="uk-child-width-1-2@m uk-hidden@m uk-grid-small uk-grid-20-m uk-grid-match uk-flex-center" uk-grid>
+                <?php
+                $data = array(
+                    array(
+                        'txt' => array(
+                            'Thuộc diện được tuyển thẳng theo Quy chế tuyển sinh Đại học, Cao đẳng hệ đại học chính quy của Bộ GD&ĐT.',
+                        ),
+                    ),
+                    array(
+                        'txt' => array(
+                            'Điểm học bạ thuộc Top50 THPT toàn quốc(chứng nhận thực hiện trên trang http://SchoolRank.fpt.edu.vn)',
+                        ),
+                    ),
+                    array(
+                        'txt' => array(
+                            'Điểm các môn thi trong kỳ thi THPT 2020 thuộc Top50 THPT toàn quốc (theo số liệu Đại học FPT tổng hợp và công bố sau kỳ thi THPT 2020) và điểm theo khối xét tuyển đạt từ trung bình trở lên (15/30 điểm).',
+                        ),
+                    ),
+                    array(
+                        'txt' => array(
+                            'Ngành Ngôn Ngữ Anh: Có chứng chỉ tiếng Anh TOEFL iBT từ 80 hoặc IELTS (Học thuật) từ 6.0 hoặc quy đổi tương đương.',
+                            'Ngành Ngôn Ngữ Nhật: Có chứng chỉ tiếng Nhật JLPT từ N3 trở lên.',
+                            'Ngành Ngôn Ngữ Hàn: Chứng chỉ Topik cấp độ 4 trong kỳ thi TOPIK II',
+                        ),
+                    ),
+                    array(
+                        'txt' => array(
+                            'Tốt nghiệp Chương trình APTECH HDSE.(áp dụng đối với ngành CNTT)',
+                            'Tốt nghiệp Chương trình ARENA ADIM. (áp dụng đối với chuyên ngành Thiết kế Mỹ thuật số)',
+                            'Đã tốt nghiệp Đại học.',
+                            'Thí sinh tốt nghiệp THPT ở nước ngoài',
+                        ),
+                    ),
+                );
+                foreach ($data as $k => $v): ?>
+                    <div>
+                        <div class="uk-padding-small uk-border-rounded uk-background-04 uk-light">
+                            <div class="uk-grid-small" uk-grid>
+                                <div class="uk-width-auto">
+                                    <span class="home__blockQuytrinh__txt2"><?= $k+1 ?></span>
+                                </div>
+                                <div class="uk-width-expand">
+                                    <?php foreach ($v['txt'] as $k1 => $v1): ?>
+                                        <div class="home__blockQuytrinh__item"><?= $v1 ?></div>
+                                    <?php endforeach; ?>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                <?php endforeach; ?>
+            </div>
         </div>
+        <!--/Quy trình tuyển sinh-->
+
+        <!--Thủ tục xét tuyển -->
+        <div class="mb-15 mb-27-m">
+            <h2 class="home__title1 uk-h2 uk-text-center uk-margin-remove">Thủ tục xét tuyển</h2>
+        </div>
+        <div class="uk-child-width-1-4@m uk-grid-14" uk-grid>
+            <div>
+
+            </div>
+        </div>
+        <!--/Thủ tục xét tuyển -->
     </div>
 </div>
 

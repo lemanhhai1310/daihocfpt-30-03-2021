@@ -26,6 +26,28 @@
         font-family: $font-Roboto-Black;
       }
     }
+    &__txt2{
+      @extend .fz-33;
+      color: #000;
+      line-height: (23/33);
+      font-family: $font-iCielGotham-Ultra;
+      position: relative;
+      top: -22px;
+      @include media-breakpoint-up('m'){
+        top: -19px;
+      }
+    }
+    &__item{
+      @extend .fz-14;
+      font-family: $font-SanFranciscoText-G3;
+      color: #ffffff !important;
+      &:nth-child(n+2){
+        margin-top: 5px;
+        @include media-breakpoint-up('m'){
+          margin-top: 10px;
+        }
+      }
+    }
   }
   &__blockHoatdong{
     &__title{
@@ -103,7 +125,7 @@
     &__txt2{
       color: #000;
       @extend .fz-16;
-      font-family: $font-Roboto-LightItalic;
+      font-family: $font-Roboto-Italic;
       line-height: (19/16);
     }
   }
