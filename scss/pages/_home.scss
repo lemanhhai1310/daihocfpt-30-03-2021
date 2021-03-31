@@ -135,6 +135,36 @@
       line-height: (19/16);
     }
   }
+  &__blockBanner{
+    &__logo{
+      img{
+        @include fluidx(86px,50px,height);
+      }
+    }
+    &__txt1{
+      color: #200000;
+      @extend .fz-36;
+      font-family: $font-Verdana-Bold;
+      &--c1{
+        line-height: 1;
+      }
+      &--c2{
+        line-height: 1.32;
+      }
+    }
+    &__txt2{
+      @extend .fz-41;
+      font-family: $font-Verdana-Bold;
+      line-height: 1;
+      color: $color4;
+    }
+    &__txt3{
+      color: $color4;
+      @extend .fz-41;
+      line-height: (37/41.2);
+      font-family: $font-iCielMijas;
+    }
+  }
   &__blockUuthe{
     &__title{
       @extend .fz-42;

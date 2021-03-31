@@ -20,4 +20,29 @@
 </head>
 <body class="<?= ($is_home) ? 'isHome' : '' ?>">
 <?php require "template-parts/commons/facebook_chat.php"; ?>
-<section id="app" class="uk-height-viewport uk-offcanvas-content uk-overflow-hidden uk-position-relative">
+<section id="app" class="uk-height-viewport uk-offcanvas-content uk-overflow-hidden uk-position-relative" data-src="" uk-img>
+
+    <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slideshow="ratio: 1736:809;min-height: 568;">
+
+        <ul class="uk-slideshow-items">
+            <li>
+                <img src="images/banner.jpg" alt="" uk-cover>
+                <div class="uk-position-cover uk-section-xsmall uk-text-center uk-text-left@m" uk-toggle="cls: uk-section-small; mode: media; media: @m">
+                    <div class="uk-container">
+                        <div class="mb-25 mb-51-m home__blockBanner__logo"><a href=""><img src="images/logo.png" alt=""></a></div>
+                        <div class="home__blockBanner__txt1 mb-9 home__blockBanner__txt1--c1">ĐH FPT hệ chính quy</div>
+                        <div class="home__blockBanner__txt2 uk-text-uppercase mb-10 mb-14-m">tuyển sinh 2021 </div>
+                        <div class="home__blockBanner__txt1 home__blockBanner__txt1--c2 mb-10 mb-26-m">
+                            bằng xếp hạng <br> học bạ THPT
+                        </div>
+                        <div class="home__blockBanner__txt3 mb-1">Xét điểm sớm, nhân đôi</div>
+                        <div class="home__blockBanner__txt3">cơ hội trúng tuyển</div>
+                    </div>
+                </div>
+            </li>
+        </ul>
+
+        <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slideshow-item="previous"></a>
+        <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slideshow-item="next"></a>
+
+    </div>
