@@ -107,6 +107,12 @@
       @extend .fz-18;
       font-family: $font-Verdana;
       border-radius: 16px;
+      .home__blockForm &{
+        margin-bottom: -75px;
+        @include media-breakpoint-up('m'){
+          margin-bottom: -95px;
+        }
+      }
       &--c1{
         background: $color2;
         color: #ffffff;
@@ -136,6 +142,7 @@
     }
   }
   &__blockBanner{
+    padding-bottom: 350px;
     &__logo{
       img{
         @include fluidx(86px,50px,height);
@@ -163,6 +170,16 @@
       @extend .fz-41;
       line-height: (37/41.2);
       font-family: $font-iCielMijas;
+    }
+  }
+  &__blockForm{
+    margin-top: -70px;
+    @include media-breakpoint-up('m'){
+      margin-top: -250px;
+    }
+    &__card{
+      $x: 30px;
+      border-radius: #{$x};
     }
   }
   &__blockUuthe{

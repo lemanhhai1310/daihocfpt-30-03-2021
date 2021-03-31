@@ -1,7 +1,36 @@
 <?php $data["title"] = "Trang chủ"; ?>
 <?php $is_home = true; ?>
 <?php require "template-parts/layouts/header.php"; ?>
-
+<div class="home__blockForm">
+    <div class="uk-container">
+        <div class="uk-flex-center" uk-grid>
+            <div class="uk-width-3-5@m">
+                <div class="uk-card uk-card-body uk-background-01 home__blockForm__card">
+                    <div class="mb-15 mb-20-m uk-light">
+                        <h2 class="home__title1 uk-h2 uk-text-center uk-margin-remove">Đăng ký nhận quà cực chất <br class="uk-visible@m"> cho kỳ thi THPT 2021</h2>
+                    </div>
+                    <form class="uk-grid-small uk-flex-center" uk-grid>
+                        <div class="uk-width-1-2">
+                            <input class="uk-input uk-border-pill home__blockDangky__input" type="text" placeholder="Họ và tên*">
+                        </div>
+                        <div class="uk-width-1-2">
+                            <input class="uk-input uk-border-pill home__blockDangky__input" type="text" placeholder="Số điện thoại*">
+                        </div>
+                        <div class="uk-width-1-2">
+                            <input class="uk-input uk-border-pill home__blockDangky__input" type="text" placeholder="Email">
+                        </div>
+                        <div class="uk-width-1-2">
+                            <input class="uk-input uk-border-pill home__blockDangky__input" type="text" placeholder="Tỉnh / Thành phố">
+                        </div>
+                        <div class="uk-width-auto">
+                            <button type="button" class="uk-button home__blockDangky__btn home__blockDangky__btn--c1 uk-button-secondary uk-border-rounded">ĐĂNG KÝ</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 <div class="uk-section-small">
     <div class="uk-container">
         <!--Ưu thế trường FPT-->
