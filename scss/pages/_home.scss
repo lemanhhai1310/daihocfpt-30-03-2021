@@ -129,4 +129,37 @@
       line-height: (19/16);
     }
   }
+  &__blockThutuc{
+    &__box1{
+      margin-top: -18px;
+      position: relative;
+      z-index: 10;
+    }
+    &__btn{
+      background: $color2;
+    }
+    &__step{
+      @extend .fz-15;
+      font-family: $font-Verdana;
+    }
+    &__title{
+      color: $color4;
+      @extend .fz-22;
+      font-family: $font-Roboto-Black;
+      text-transform: uppercase;
+      margin-bottom: 7px !important;
+      @include media-breakpoint-up('m'){
+        margin-bottom: 10px !important;
+      }
+    }
+    &__desc{
+      @extend .fz-16;
+      color: #1d1d1b;
+      line-height: (17/16);
+      span{
+        font-family: $font-Roboto-Black;
+        line-height: (20/16);
+      }
+    }
+  }
 }

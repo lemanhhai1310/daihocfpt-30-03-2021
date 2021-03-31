@@ -12,82 +12,86 @@
             <div class="home__blockQuytrinh__txt1"><span>Đối tượng tuyển sinh</span> Các thí sinh tốt nghiệp THPT hoặc tương đương tính đến thời điểm nhập học</div>
             <div class="home__blockQuytrinh__txt1"><span>Điều kiện xét tuyển</span> Đáp ứng một trong các điều kiện sau</div>
         </div>
-        <div class="mb-30 mb-52-m">
-            <div class="uk-child-width-1-2 uk-grid-small uk-grid-20-m uk-visible@m uk-grid-match" uk-grid>
-                <div>
-                    <div class="uk-child-width-1-1 uk-grid-small uk-grid-20-m uk-grid-match uk-flex-center" uk-grid>
-                        <?php
-                        $data = array(
-                            array(
-                                'txt' => array(
-                                    'Thuộc diện được tuyển thẳng theo Quy chế tuyển sinh Đại học, Cao đẳng hệ đại học chính quy của Bộ GD&ĐT.',
-                                ),
-                            ),
-                            array(
-                                'txt' => array(
-                                    'Điểm học bạ thuộc Top50 THPT toàn quốc(chứng nhận thực hiện trên trang http://SchoolRank.fpt.edu.vn)',
-                                ),
-                            ),
-                            array(
-                                'txt' => array(
-                                    'Điểm các môn thi trong kỳ thi THPT 2020 thuộc Top50 THPT toàn quốc (theo số liệu Đại học FPT tổng hợp và công bố sau kỳ thi THPT 2020) và điểm theo khối xét tuyển đạt từ trung bình trở lên (15/30 điểm).',
-                                ),
-                            ),
-                        );
-                        foreach ($data as $k => $v): ?>
-                            <div>
-                                <div class="uk-padding-small uk-border-rounded uk-background-04 uk-light">
-                                    <div class="uk-grid-small" uk-grid>
-                                        <div class="uk-width-auto">
-                                            <span class="home__blockQuytrinh__txt2"><?= $k+1 ?></span>
-                                        </div>
-                                        <div class="uk-width-expand">
-                                            <?php foreach ($v['txt'] as $k1 => $v1): ?>
-                                                <div class="home__blockQuytrinh__item"><?= $v1 ?></div>
-                                            <?php endforeach; ?>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        <?php endforeach; ?>
-                    </div>
-                </div>
-                <div>
-                    <div class="uk-child-width-1-1 uk-grid-small uk-grid-20-m uk-grid-match uk-flex-center" uk-grid>
-                        <?php
-                        $data = array(
-                            array(
-                                'txt' => array(
-                                    'Ngành Ngôn Ngữ Anh: Có chứng chỉ tiếng Anh TOEFL iBT từ 80 hoặc IELTS (Học thuật) từ 6.0 hoặc quy đổi tương đương.',
-                                    'Ngành Ngôn Ngữ Nhật: Có chứng chỉ tiếng Nhật JLPT từ N3 trở lên.',
-                                    'Ngành Ngôn Ngữ Hàn: Chứng chỉ Topik cấp độ 4 trong kỳ thi TOPIK II',
-                                ),
-                            ),
-                            array(
-                                'txt' => array(
-                                    'Tốt nghiệp Chương trình APTECH HDSE.(áp dụng đối với ngành CNTT)',
-                                    'Tốt nghiệp Chương trình ARENA ADIM. (áp dụng đối với chuyên ngành Thiết kế Mỹ thuật số)',
-                                    'Đã tốt nghiệp Đại học.',
-                                    'Thí sinh tốt nghiệp THPT ở nước ngoài',
-                                ),
-                            ),
-                        );
-                        foreach ($data as $k => $v): ?>
-                            <div>
-                                <div class="uk-padding-small uk-border-rounded uk-background-04 uk-light">
-                                    <div class="uk-grid-small" uk-grid>
-                                        <div class="uk-width-auto">
-                                            <span class="home__blockQuytrinh__txt2"><?= $k+4 ?></span>
-                                        </div>
-                                        <div class="uk-width-expand">
-                                            <?php foreach ($v['txt'] as $k1 => $v1): ?>
-                                                <div class="home__blockQuytrinh__item"><?= $v1 ?></div>
-                                            <?php endforeach; ?>
+        <div class="mb-30 mb-52-m" uk-scrollspy="cls: uk-animation-slide-bottom-small; target: .animation; delay: 300; repeat: false">
+            <div class="uk-flex-center" uk-grid>
+                <div class="uk-width-5-6@m">
+                    <div class="uk-child-width-1-2 uk-grid-small uk-grid-20-m uk-visible@m uk-grid-match" uk-grid>
+                        <div>
+                            <div class="uk-child-width-1-1 uk-grid-small uk-grid-20-m uk-grid-match uk-flex-center" uk-grid>
+                                <?php
+                                $data = array(
+                                    array(
+                                        'txt' => array(
+                                            'Thuộc diện được tuyển thẳng theo Quy chế tuyển sinh Đại học, Cao đẳng hệ đại học chính quy của Bộ GD&ĐT.',
+                                        ),
+                                    ),
+                                    array(
+                                        'txt' => array(
+                                            'Điểm học bạ thuộc Top50 THPT toàn quốc(chứng nhận thực hiện trên trang http://SchoolRank.fpt.edu.vn)',
+                                        ),
+                                    ),
+                                    array(
+                                        'txt' => array(
+                                            'Điểm các môn thi trong kỳ thi THPT 2020 thuộc Top50 THPT toàn quốc (theo số liệu Đại học FPT tổng hợp và công bố sau kỳ thi THPT 2020) và điểm theo khối xét tuyển đạt từ trung bình trở lên (15/30 điểm).',
+                                        ),
+                                    ),
+                                );
+                                foreach ($data as $k => $v): ?>
+                                    <div>
+                                        <div class="animation uk-padding-small uk-border-rounded uk-background-04 uk-light">
+                                            <div class="uk-grid-small" uk-grid>
+                                                <div class="uk-width-auto">
+                                                    <span class="home__blockQuytrinh__txt2"><?= $k+1 ?></span>
+                                                </div>
+                                                <div class="uk-width-expand">
+                                                    <?php foreach ($v['txt'] as $k1 => $v1): ?>
+                                                        <div class="home__blockQuytrinh__item"><?= $v1 ?></div>
+                                                    <?php endforeach; ?>
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
-                                </div>
+                                <?php endforeach; ?>
                             </div>
-                        <?php endforeach; ?>
+                        </div>
+                        <div>
+                            <div class="uk-child-width-1-1 uk-grid-small uk-grid-20-m uk-grid-match uk-flex-center" uk-grid>
+                                <?php
+                                $data = array(
+                                    array(
+                                        'txt' => array(
+                                            'Ngành Ngôn Ngữ Anh: Có chứng chỉ tiếng Anh TOEFL iBT từ 80 hoặc IELTS (Học thuật) từ 6.0 hoặc quy đổi tương đương.',
+                                            'Ngành Ngôn Ngữ Nhật: Có chứng chỉ tiếng Nhật JLPT từ N3 trở lên.',
+                                            'Ngành Ngôn Ngữ Hàn: Chứng chỉ Topik cấp độ 4 trong kỳ thi TOPIK II',
+                                        ),
+                                    ),
+                                    array(
+                                        'txt' => array(
+                                            'Tốt nghiệp Chương trình APTECH HDSE.(áp dụng đối với ngành CNTT)',
+                                            'Tốt nghiệp Chương trình ARENA ADIM. (áp dụng đối với chuyên ngành Thiết kế Mỹ thuật số)',
+                                            'Đã tốt nghiệp Đại học.',
+                                            'Thí sinh tốt nghiệp THPT ở nước ngoài',
+                                        ),
+                                    ),
+                                );
+                                foreach ($data as $k => $v): ?>
+                                    <div>
+                                        <div class="animation uk-padding-small uk-border-rounded uk-background-04 uk-light">
+                                            <div class="uk-grid-small" uk-grid>
+                                                <div class="uk-width-auto">
+                                                    <span class="home__blockQuytrinh__txt2"><?= $k+4 ?></span>
+                                                </div>
+                                                <div class="uk-width-expand">
+                                                    <?php foreach ($v['txt'] as $k1 => $v1): ?>
+                                                        <div class="home__blockQuytrinh__item"><?= $v1 ?></div>
+                                                    <?php endforeach; ?>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                <?php endforeach; ?>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -127,7 +131,7 @@
                 );
                 foreach ($data as $k => $v): ?>
                     <div>
-                        <div class="uk-padding-small uk-border-rounded uk-background-04 uk-light">
+                        <div class="animation uk-padding-small uk-border-rounded uk-background-04 uk-light">
                             <div class="uk-grid-small" uk-grid>
                                 <div class="uk-width-auto">
                                     <span class="home__blockQuytrinh__txt2"><?= $k+1 ?></span>
@@ -149,9 +153,50 @@
         <div class="mb-15 mb-27-m">
             <h2 class="home__title1 uk-h2 uk-text-center uk-margin-remove">Thủ tục xét tuyển</h2>
         </div>
-        <div class="uk-child-width-1-4@m uk-grid-14" uk-grid>
-            <div>
-
+        <div class="home__blockHoatdong__boxMobile uk-overflow-auto" style="overflow-y: hidden">
+            <div class="uk-child-width-1-4@m uk-flex-nowrap uk-grid-14" uk-grid>
+                <?php
+                $data = array(
+                    array(
+                        'src' => 'images/rank.png',
+                        'txt' => 'Kiểm tra điểm',
+                        'desc' => 'Xem xếp hạng điểm THPT tại <span>http://schoolrank.fpt.edu.vn</span>',
+                    ),
+                    array(
+                        'src' => 'images/buoc2.png',
+                        'txt' => 'Chuẩn bị hồ sơ',
+                        'desc' => 'Chụp ảnh hoặc scan học bạ, ảnh 3x4, ảnh CMND',
+                    ),
+                    array(
+                        'src' => 'images/buoc3.png',
+                        'txt' => 'Nộp hồ sơ',
+                        'desc' => 'Gửi hồ sơ online, nộp lệ phí',
+                    ),
+                    array(
+                        'src' => 'images/buoc4.png',
+                        'txt' => 'Nhận kết quả',
+                        'desc' => 'Biết kết quả sớm sau khi nộp',
+                    ),
+                );
+                foreach ($data as $k => $v): ?>
+                    <div>
+                        <div uk-toggle="cls: uk-width-medium; mode: media; media: (max-width: 959px)">
+                            <div class="uk-cover-container uk-border-rounded uk-background-norepeat uk-background-cover uk-background-center-center" data-src="images/bg02.png" uk-img>
+                                <div class="uk-position-cover uk-flex uk-flex-center uk-flex-middle">
+                                    <img class="uk-responsive-width uk-responsive-height" src="<?= $v['src'] ?>" alt="">
+                                </div>
+                                <canvas width="542" height="346"></canvas>
+                            </div>
+                            <div class="uk-text-center home__blockThutuc__box1">
+                                <div class="mb-10 mb-15-m">
+                                    <button class="home__blockThutuc__btn uk-box-shadow-small uk-button uk-button-secondary uk-button-small uk-border-pill"><span class="home__blockThutuc__step">Bước <?= $k+1 ?></span></button>
+                                </div>
+                                <h5 class="uk-h5 uk-margin-remove home__blockThutuc__title"><?= $v['txt'] ?></h5>
+                                <div class="home__blockThutuc__desc"><?= $v['desc'] ?></div>
+                            </div>
+                        </div>
+                    </div>
+                <?php endforeach; ?>
             </div>
         </div>
         <!--/Thủ tục xét tuyển -->
