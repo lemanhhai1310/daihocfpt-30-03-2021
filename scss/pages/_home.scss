@@ -16,6 +16,12 @@
     &--c4{
       color: $color4 !important;
     }
+    .uk-light &{
+      color: #ffffff !important;
+    }
+    .home__blockChuyennganh__card &{
+      line-height: (43/38.9);
+    }
   }
   &__blockQuytrinh{
     &__txt1{
@@ -127,6 +133,30 @@
       @extend .fz-16;
       font-family: $font-Roboto-Italic;
       line-height: (19/16);
+    }
+  }
+  &__blockChuyennganh{
+    &__card1{
+      border: 1px solid #ffffff;
+      //border-bottom: none;
+      $x: 20px;
+      border-radius: #{$x};
+    }
+    &__card{
+      $x: 30px;
+      border-radius: #{$x};
+    }
+    &__title{
+      @extend .fz-22;
+      font-family: $font-Roboto-Black;
+      color: #ffffff;
+      line-height: (24/22);
+    }
+    &__txt1{
+      @extend .fz-15;
+      font-family: $font-Roboto-Medium;
+      color: #ffffff;
+
     }
   }
   &__blockThutuc{

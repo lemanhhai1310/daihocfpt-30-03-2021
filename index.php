@@ -4,6 +4,133 @@
 
 <div class="uk-section-small">
     <div class="uk-container">
+        <!--Chuyên ngànhđào tạo-->
+        <div class="uk-card home__blockChuyennganh__card uk-light uk-border-rounded uk-box-shadow-medium uk-card-body mb-30 mb-52-m uk-background-norepeat uk-background-cover uk-background-center-center" data-src="images/bg03.png" uk-img>
+            <div uk-grid>
+                <div class="uk-width-1-3@m">
+                    <div class="mb-15 mb-33-m">
+                        <h2 class="uk-h2 home__title2 home__title2--c4 uk-margin-remove">Chuyên ngành đào tạo</h2>
+                    </div>
+                    <div>
+                        <img src="images/img1.png" alt="">
+                    </div>
+                </div>
+                <div class="uk-width-expand">
+                    <div uk-grid>
+                        <div class="uk-width-expand">
+                            <div class="uk-grid-small uk-grid-42-m" uk-grid>
+                                <div class="uk-width-1-1">
+                                    <div class="uk-grid-11" uk-grid>
+                                        <div class="uk-width-auto">
+                                            <img src="images/icon/ico1.png" alt="">
+                                        </div>
+                                        <div class="uk-width-expand">
+                                            <div class="mb-5 mb-12-m">
+                                                <h4 class="uk-h4 uk-margin-remove home__blockChuyennganh__title uk-text-uppercase">NGÀNH QUẢN TRỊ KINH DOANH</h4>
+                                            </div>
+                                            <div class="mb-5 mb-12-m">
+                                                <div class="home__blockChuyennganh__txt1">Mã ngành: 7340101</div>
+                                                <div class="home__blockChuyennganh__txt1">Chỉ tiêu: 3150</div>
+                                            </div>
+                                            <div>
+                                                <div class="home__blockChuyennganh__txt1">• Digital Marketing</div>
+                                                <div class="home__blockChuyennganh__txt1">• Kinh doanh quốc tế</div>
+                                                <div class="home__blockChuyennganh__txt1">• Quản trị khách sạn</div>
+                                                <div class="home__blockChuyennganh__txt1">• Quản trị dịch vụ du lịch & lữ hành</div>
+                                                <div class="home__blockChuyennganh__txt1">• Quản trị truyền thông đa phương tiện</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="uk-width-1-1">
+                                    <div class="uk-grid-11" uk-grid>
+                                        <div class="uk-width-auto">
+                                            <img src="images/icon/ico2.png" alt="">
+                                        </div>
+                                        <div class="uk-width-expand">
+                                            <div class="mb-5 mb-12-m">
+                                                <h4 class="uk-h4 uk-margin-remove home__blockChuyennganh__title uk-text-uppercase">NGÀNH Công nghệ thông tin</h4>
+                                            </div>
+                                            <div class="mb-5 mb-12-m">
+                                                <div class="home__blockChuyennganh__txt1">Mã ngành: 7480201</div>
+                                                <div class="home__blockChuyennganh__txt1">Chỉ tiêu: 4450</div>
+                                            </div>
+                                            <div>
+                                                <div class="home__blockChuyennganh__txt1">• Kỹ thuật phần mềm</div>
+                                                <div class="home__blockChuyennganh__txt1">• Hệ thống thông tin</div>
+                                                <div class="home__blockChuyennganh__txt1">• Trí tuệ nhân tạo</div>
+                                                <div class="home__blockChuyennganh__txt1">• An toàn thông tin</div>
+                                                <div class="home__blockChuyennganh__txt1">• IoT</div>
+                                                <div class="home__blockChuyennganh__txt1">• Hệ thống ô tô và điều khiển (dự kiến)</div>
+                                                <div class="home__blockChuyennganh__txt1">• Thiết kế Mỹ thuật số</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="uk-width-1-2@m">
+                            <div class="uk-padding-small home__blockChuyennganh__card1">
+                                <div class="uk-grid-small uk-grid-42-m" uk-grid>
+                                    <div class="uk-width-1-1">
+                                        <div class="uk-grid-11 uk-flex-middle" uk-grid>
+                                            <div class="uk-width-auto">
+                                                <img src="images/icon/ico3.png" alt="">
+                                            </div>
+                                            <div class="uk-width-expand">
+                                                <div class="mb-5 mb-12-m">
+                                                    <h4 class="uk-h4 uk-margin-remove home__blockChuyennganh__title uk-text-uppercase">NGÀNH ngôn ngữ anh</h4>
+                                                </div>
+                                                <div class="">
+                                                    <div class="home__blockChuyennganh__txt1">Mã ngành: 7340101</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="uk-width-1-1">
+                                        <div class="uk-grid-11 uk-flex-middle" uk-grid>
+                                            <div class="uk-width-auto">
+                                                <img src="images/icon/ico4.png" alt="">
+                                            </div>
+                                            <div class="uk-width-expand">
+                                                <div class="mb-5 mb-12-m">
+                                                    <h4 class="uk-h4 uk-margin-remove home__blockChuyennganh__title uk-text-uppercase">NGÀNH ngôn ngữ nhật</h4>
+                                                </div>
+                                                <div class="">
+                                                    <div class="home__blockChuyennganh__txt1">Mã ngành: 7340101</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="uk-width-1-1">
+                                        <div class="uk-grid-11 uk-flex-middle" uk-grid>
+                                            <div class="uk-width-auto">
+                                                <img src="images/icon/ico5.png" alt="">
+                                            </div>
+                                            <div class="uk-width-expand">
+                                                <div class="mb-5 mb-12-m">
+                                                    <h4 class="uk-h4 uk-margin-remove home__blockChuyennganh__title uk-text-uppercase">NGÀNH ngôn ngữ hàn quốc</h4>
+                                                </div>
+                                                <div class="">
+                                                    <div class="home__blockChuyennganh__txt1">Mã ngành: 7340101</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--
+                                <div class="uk-position-relative">
+                                    <span class="uk-position-center">Chỉ tiêu: 600</span>
+                                </div>
+                                -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--/Chuyên ngànhđào tạo-->
+
         <!--Quy trình tuyển sinh-->
         <div class="mb-15 mb-22-m">
             <h2 class="uk-h2 uk-text-center home__title2 home__title2--c4 uk-margin-remove">Quy trình tuyển sinh</h2>
