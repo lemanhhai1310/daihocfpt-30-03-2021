@@ -135,6 +135,28 @@
       line-height: (19/16);
     }
   }
+  &__blockUuthe{
+    &__title{
+      @extend .fz-42;
+      font-family: $font-Verdana-Bold;
+      color: $color4;
+      line-height: (33/41.7);
+      margin-bottom: 10px;
+    }
+    &__desc{
+      color: #200000;
+      @extend .fz-15;
+      font-family: $font-Verdana;
+      line-height: (33/2/15);
+    }
+    &_grid{
+      >.uk-grid-margin{
+        @include media-breakpoint-up('m'){
+          margin-top: 29px !important;
+        }
+      }
+    }
+  }
   &__blockChuyennganh{
     &__card1{
       border: 1px solid #ffffff;

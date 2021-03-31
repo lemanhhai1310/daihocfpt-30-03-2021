@@ -4,6 +4,53 @@
 
 <div class="uk-section-small">
     <div class="uk-container">
+        <!--Ưu thế trường FPT-->
+        <div class="uk-flex-middle" uk-grid>
+            <div class="uk-width-expand">
+                <div class="mb-30 mb-49-m">
+                    <h2 class="uk-h2 home__title2 home__title2--c4 uk-margin-remove">Ưu thế <br class="uk-visible@m"> trường FPT</h2>
+                </div>
+                <div class="uk-child-width-1-2 uk-child-width-1-3@m home__blockUuthe_grid uk-grid-70-m" uk-grid>
+                    <div>
+                        <div class="home__blockUuthe__title">100%</div>
+                        <div class="home__blockUuthe__desc">sinh viên cơ hội
+                            học tập tại nước ngoài</div>
+                    </div>
+                    <div>
+                        <div class="home__blockUuthe__title">100%</div>
+                        <div class="home__blockUuthe__desc">sinh viên được nhà
+                            tuyển dụng chào đón</div>
+                    </div>
+                    <div>
+                        <div class="home__blockUuthe__title">98%</div>
+                        <div class="home__blockUuthe__desc">sinh viên có việc làm
+                            sau khi ra trường</div>
+                    </div>
+                    <div>
+                        <div class="home__blockUuthe__title">5*</div>
+                        <div class="home__blockUuthe__desc">Đào tạo, việc làm,
+                            cơ sở vật chất và
+                            hoạt động cộng đồng</div>
+                    </div>
+                    <div>
+                        <div class="home__blockUuthe__title">5</div>
+                        <div class="home__blockUuthe__desc">Campus tại HN,
+                            HCM, ĐN, CT,
+                            Quy Nhơn</div>
+                    </div>
+                    <div>
+                        <div class="home__blockUuthe__title">180</div>
+                        <div class="home__blockUuthe__desc">trường trên thế giới
+                            liên kết hợp tác</div>
+                    </div>
+                </div>
+            </div>
+            <div class="uk-width-auto">
+                <img src="images/img2.png" alt="">
+            </div>
+        </div>
+        <!--/Ưu thế trường FPT-->
+
         <!--Chuyên ngànhđào tạo-->
         <div class="uk-card home__blockChuyennganh__card uk-light uk-border-rounded uk-box-shadow-medium uk-card-body mb-30 mb-52-m uk-background-norepeat uk-background-cover uk-background-center-center" data-src="images/bg03.png" uk-img>
             <div uk-grid>
