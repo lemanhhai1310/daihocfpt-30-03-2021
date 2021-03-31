@@ -212,8 +212,18 @@
       border-radius: #{$x};
     }
     &__card{
-      $x: 30px;
-      border-radius: #{$x};
+
+      margin-left: -15px;
+      margin-right: -15px;
+      padding-left: 15px;
+      padding-right: 15px;
+      @include media-breakpoint-up('m'){
+        padding: 40px;
+        margin-left: 0;
+        margin-right: 0;
+        $x: 30px;
+        border-radius: #{$x};
+      }
     }
     &__title{
       @extend .fz-22;
