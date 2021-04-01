@@ -413,7 +413,7 @@
             <div class="uk-width-2-5@m">
                 <div class="uk-card uk-card-body uk-text-center home__blockDangky1__card uk-border-rounded">
                     <div>
-                        <div class="uk-display-inline-block uk-padding-small uk-height-small uk-padding-remove-top uk-padding-remove-bottom uk-background-01" style="margin-top: -198px;">
+                        <div class="uk-display-inline-block uk-padding-small uk-height-small uk-padding-remove-top uk-padding-remove-bottom uk-background-01 home__blockDangky1__avartar" style="">
                             <div class="uk-display-inline-block uk-cover-container uk-border-circle">
                                 <img src="images/lemanhhai_anhthe.jpg" alt="" uk-cover>
                                 <canvas width="138" height="138"></canvas>
