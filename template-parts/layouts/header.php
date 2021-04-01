@@ -21,15 +21,18 @@
 <body class="<?= ($is_home) ? 'isHome' : '' ?>">
 <?php require "template-parts/commons/facebook_chat.php"; ?>
 <section id="app" class="uk-height-viewport uk-offcanvas-content uk-overflow-hidden uk-position-relative" data-src="" uk-img>
-    <div uk-height-viewport="expand: true" class="home__blockBanner uk-background-norepeat uk-background-top-center uk-section-xsmall uk-text-center uk-text-left@m" uk-toggle="cls: uk-section-small; mode: media; media: @m" data-src="images/banner.jpg" uk-img>
-        <div class="uk-container">
-            <div class="mb-25 mb-51-m home__blockBanner__logo"><a href=""><img src="images/logo.png" alt=""></a></div>
-            <div class="home__blockBanner__txt1 mb-9 home__blockBanner__txt1--c1">ĐH FPT hệ chính quy</div>
-            <div class="home__blockBanner__txt2 uk-text-uppercase mb-10 mb-14-m">tuyển sinh 2021 </div>
-            <div class="home__blockBanner__txt1 home__blockBanner__txt1--c2 mb-10 mb-26-m">
-                bằng xếp hạng <br> học bạ THPT
+    <div uk-height-viewport="expand: true" class="home__blockBanner uk-position-relative uk-background-norepeat uk-background-top-center uk-section-xsmall uk-text-center uk-text-left@m" uk-toggle="cls: uk-section-small; mode: media; media: @m" data-src="images/banner.jpg" uk-img>
+        <div class="uk-position-cover uk-hidden@m home__blockBanner__overlay"></div>
+        <div class="uk-position-relative uk-position-z-index">
+            <div class="uk-container">
+                <div class="mb-25 mb-51-m home__blockBanner__logo"><a href=""><img src="images/logo.png" alt=""></a></div>
+                <div class="home__blockBanner__txt1 mb-9 home__blockBanner__txt1--c1">ĐH FPT hệ chính quy</div>
+                <div class="home__blockBanner__txt2 uk-text-uppercase mb-10 mb-14-m">tuyển sinh 2021 </div>
+                <div class="home__blockBanner__txt1 home__blockBanner__txt1--c2 mb-10 mb-26-m">
+                    bằng xếp hạng <br> học bạ THPT
+                </div>
+                <div class="home__blockBanner__txt3 mb-1">Xét điểm sớm, nhân đôi</div>
+                <div class="home__blockBanner__txt3">cơ hội trúng tuyển</div>
             </div>
-            <div class="home__blockBanner__txt3 mb-1">Xét điểm sớm, nhân đôi</div>
-            <div class="home__blockBanner__txt3">cơ hội trúng tuyển</div>
         </div>
     </div>

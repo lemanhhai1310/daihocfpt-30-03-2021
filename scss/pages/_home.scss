@@ -143,13 +143,20 @@
   }
   &__blockBanner{
     padding-bottom: 350px;
+    &__overlay{
+      background: rgba(0, 0, 0, 0.31);
+
+    }
     &__logo{
       img{
         @include fluidx(86px,50px,height);
       }
     }
     &__txt1{
-      color: #200000;
+      color: #ffffff;
+      @include media-breakpoint-up('m'){
+        color: #200000;
+      }
       @extend .fz-36;
       font-family: $font-Verdana-Bold;
       &--c1{
