@@ -412,18 +412,37 @@
         <div class="uk-flex-middle uk-grid-small uk-grid-41-m" uk-grid>
             <div class="uk-width-2-5@m">
                 <div class="uk-card uk-card-body uk-text-center home__blockDangky1__card uk-border-rounded">
-                    <div>
-                        <div class="uk-display-inline-block uk-padding-small uk-height-small uk-padding-remove-top uk-padding-remove-bottom uk-background-01 home__blockDangky1__avartar" style="">
-                            <div class="uk-display-inline-block uk-cover-container uk-border-circle">
-                                <img src="images/lemanhhai_anhthe.jpg" alt="" uk-cover>
-                                <canvas width="138" height="138"></canvas>
-                            </div>
+                    <div class="uk-light" uk-slider>
+
+                        <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1">
+
+                            <ul class="uk-slider-items uk-child-width-1-1">
+                                <?php for ($i=1;$i<=3;$i++): ?>
+                                <li>
+                                    <div>
+                                        <div class="uk-display-inline-block uk-padding-small uk-height-small uk-padding-remove-top uk-padding-remove-bottom uk-background-01 home__blockDangky1__avartar" style="">
+                                            <div class="uk-display-inline-block uk-cover-container uk-border-circle">
+                                                <img src="images/lemanhhai_anhthe.jpg" alt="" uk-cover>
+                                                <canvas width="138" height="138"></canvas>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <p class="home__blockDangky1__txt2">“Con gái cô đã được 1 công ty hàng không của Nhật Bản mời về làm việc 2 tháng nay khi em còn chưa tốt nghiệp. Cô chắn chắn rằng 4 năm qua nhà trường đã trang bị cho các con mọi thứ rất chu đáo thì các con hiện nay mới vững vàng được như thế. Ngày hôm nay tham dự buổi lễ tốt nghiệp của con, cô thực sự rất cảm động và thấy rất ấm áp. So với 4 năm trước khi cô dự lễ khai giảng thì thấy các con trưởng thành, chững chạc hơn nhiều. Cô cảm nhận được sự trách nhiệm của thầy cô từ ngày đầu tiên cho tới những ngày cuối cùng này.”</p>
+                                    <div>
+                                        <div class="home__blockDangky1__txt1">Cô Lê Nga - Phụ huynh sinh viên Trần Lê Lâm Anh</div>
+                                        <div class="home__blockDangky1__txt1">K11 ngành Quản trị kinh doanh</div>
+                                    </div>
+                                </li>
+                                <?php endfor; ?>
+                            </ul>
+
+                            <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slider-item="previous"></a>
+                            <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slider-item="next"></a>
+
                         </div>
-                    </div>
-                    <p class="home__blockDangky1__txt2">“Con gái cô đã được 1 công ty hàng không của Nhật Bản mời về làm việc 2 tháng nay khi em còn chưa tốt nghiệp. Cô chắn chắn rằng 4 năm qua nhà trường đã trang bị cho các con mọi thứ rất chu đáo thì các con hiện nay mới vững vàng được như thế. Ngày hôm nay tham dự buổi lễ tốt nghiệp của con, cô thực sự rất cảm động và thấy rất ấm áp. So với 4 năm trước khi cô dự lễ khai giảng thì thấy các con trưởng thành, chững chạc hơn nhiều. Cô cảm nhận được sự trách nhiệm của thầy cô từ ngày đầu tiên cho tới những ngày cuối cùng này.”</p>
-                    <div>
-                        <div class="home__blockDangky1__txt1">Cô Lê Nga - Phụ huynh sinh viên Trần Lê Lâm Anh</div>
-                        <div class="home__blockDangky1__txt1">K11 ngành Quản trị kinh doanh</div>
+
+                        <ul class="uk-slider-nav uk-dotnav uk-flex-center uk-margin"></ul>
+
                     </div>
                 </div>
             </div>

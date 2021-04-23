@@ -121,9 +121,9 @@
   }
   &__blockDangky1{
     &__avartar{
-      margin-top: -56px;
+      //margin-top: -56px;
       @include media-breakpoint-up('m'){
-        margin-top: -198px;
+        //margin-top: -198px;
       }
     }
     .uk-radio{
